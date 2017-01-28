@@ -15,26 +15,27 @@ print "Fill the phone book"
 phonebook = {}
 for i in range(0,n):
     data = ((raw_input("Enter name and the number to phonebook: ")).lower()).split()
-    name = data[0]
-    phone = data[1]
 
     while(True):
-        if len(phone) != 8:
+        if len(data[1]) != 8:
             print "You entered a wrong phone number"
-            phone = raw_input("Reenter the phone numbeer: ")
+            phone = raw_input("Reenter the phone number: ")
             continue
         else:
             break
 
-    phonebook[name] = phone
+    phonebook[data[0]] = data[1]
 
 print "The phonebook is full."
 
 print "Check " + str(n) + " of your friends in the phonebook:"
 
-for i in range(0,n):
+while True:
     query = raw_input("What friend are you looking for? ")
     if query in phonebook.keys():
-        print query + "=" + phonebook[query]
+        print "{}={}".format(query,phonebook.get(query))
+    elif not query:
+        print "Goodbye!"
+        break
     else:
         print "Not found"
