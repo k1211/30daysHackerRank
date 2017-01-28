@@ -13,27 +13,31 @@ n = int(raw_input("Enter the size of the phonebook: "))
 
 print "Fill the phone book"
 phonebook = {}
+
+def lookup(query, phonebook):
+    if phonebook.has_key(query):
+        print "%s=%s" %(query,phonebook.get(query))
+    else:
+        print "Not found"
+
+
 for i in range(0,n):
-    data = ((raw_input("Enter name and the number to phonebook: ")).lower()).split()
+    name, phone = (raw_input("Enter name and the number to phonebook: ")).split()
 
     while(True):
-        if len(data[1]) != 8:
+        if len(phone) != 8:
             print "You entered a wrong phone number"
             phone = raw_input("Reenter the phone number: ")
             continue
         else:
             break
 
-    phonebook[data[0]] = data[1]
+    phonebook[name.lower()] = phone
 
 print "The phonebook is full."
 
 while True:
-    query = raw_input("What friend are you looking for? ")
-    if query in phonebook.keys():
-        print "{}={}".format(query,phonebook.get(query))
-    elif not query:
-        print "Goodbye!"
+    query = (raw_input("What friend are you looking for? ")).lower()
+    lookup(query, phonebook)
+    if not query:
         break
-    else:
-        print "Not found"
