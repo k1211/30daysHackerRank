@@ -28,8 +28,6 @@ for i in range(0,n):
 
 print "The phonebook is full."
 
-print "Check " + str(n) + " of your friends in the phonebook:"
-
 while True:
     query = raw_input("What friend are you looking for? ")
     if query in phonebook.keys():
