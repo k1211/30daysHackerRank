@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0192aaf7-6694-4d47-ac6d-856636ad6d30" name="Default" comment="day13&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day14/day14.py" />
+    <list default="true" id="0192aaf7-6694-4d47-ac6d-856636ad6d30" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day15/day15.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Day16/day16.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HackerRank30.iws" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="day14.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day14/day14.py">
+      <file leaf-file-name="day16.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day16/day16.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="92">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -64,6 +65,8 @@
         <option value="$PROJECT_DIR$/Day13.py" />
         <option value="$PROJECT_DIR$/Day13/day13.py" />
         <option value="$PROJECT_DIR$/Day14/day14.py" />
+        <option value="$PROJECT_DIR$/Day15/day15.py" />
+        <option value="$PROJECT_DIR$/Day16/day16.py" />
       </list>
     </option>
   </component>
@@ -141,7 +144,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Day14" />
+              <option name="myItemId" value="Day16" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -156,41 +159,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.day14">
-    <configuration default="false" name="day10" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HackerRank30" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day10/day10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="day11" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HackerRank30" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day11/day11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.day16">
     <configuration default="false" name="day12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,6 +207,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HackerRank30" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day14/day14.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="day15" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HackerRank30" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day15/day15.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="day16" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HackerRank30" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day16/day16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -377,19 +380,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.day10" />
-      <item index="1" class="java.lang.String" itemvalue="Python.day11" />
-      <item index="2" class="java.lang.String" itemvalue="Python.day12" />
-      <item index="3" class="java.lang.String" itemvalue="Python.day13" />
-      <item index="4" class="java.lang.String" itemvalue="Python.day14" />
+      <item index="0" class="java.lang.String" itemvalue="Python.day12" />
+      <item index="1" class="java.lang.String" itemvalue="Python.day13" />
+      <item index="2" class="java.lang.String" itemvalue="Python.day14" />
+      <item index="3" class="java.lang.String" itemvalue="Python.day15" />
+      <item index="4" class="java.lang.String" itemvalue="Python.day16" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.day14" />
-        <item index="1" class="java.lang.String" itemvalue="Python.day13" />
-        <item index="2" class="java.lang.String" itemvalue="Python.day12" />
-        <item index="3" class="java.lang.String" itemvalue="Python.day11" />
-        <item index="4" class="java.lang.String" itemvalue="Python.day10" />
+        <item index="0" class="java.lang.String" itemvalue="Python.day16" />
+        <item index="1" class="java.lang.String" itemvalue="Python.day15" />
+        <item index="2" class="java.lang.String" itemvalue="Python.day14" />
+        <item index="3" class="java.lang.String" itemvalue="Python.day13" />
+        <item index="4" class="java.lang.String" itemvalue="Python.day12" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486477680635</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="day14">
+      <created>1486480932659</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1486480932659</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -594,7 +604,8 @@
     <MESSAGE value="day11" />
     <MESSAGE value="day12" />
     <MESSAGE value="day13&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="day13&#10;" />
+    <MESSAGE value="day14" />
+    <option name="LAST_COMMIT_MESSAGE" value="day14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -795,6 +806,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day15/day15.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day16/day16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
